@@ -36,7 +36,7 @@ class Robot():
         self.laser_msg = msg
 
     def getLaserAt(self, pos):
-        time.sleep(1)
+        time.sleep(0.5)
         return self.laser_msg.ranges[pos]
 
     def stopRobot(self):
