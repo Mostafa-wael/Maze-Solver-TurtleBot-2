@@ -1,0 +1,6 @@
+<launch>
+<!-- Note: Keep in mind that the name of the package in the following example is 'maze', the source file is 'MazeSolverRobot.py', so in your
+case, the name of the package may be different. -->
+<node pkg="maze" type="MazeSolverRobot.py" name="Robot" output="screen">
+</node>
+</launch>
